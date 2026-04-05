@@ -286,7 +286,7 @@ User clicks extension icon
 ```bash
 # 1. Clone the repository
 git clone https://github.com/MridulAgrawal07/Neuro-Inclusive-WebInterface.git
-cd neuro-inclusive-extension
+cd Neuro-Inclusive-WebInterface
 
 # 2. Install dependencies
 npm install
