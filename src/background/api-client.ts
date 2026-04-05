@@ -38,7 +38,7 @@ function getClient(apiKey: string): GoogleGenerativeAI {
 /** Resolve the API key to use, throwing if none is available. */
 export function resolveApiKey(settingsKey: string): string {
   const key = settingsKey || DEV_API_KEY || '';
-  if (!key) throw new Error('[NI] No Gemini API key configured. Add one in the extension popup.');
+  if (!key) throw new Error('[NI] No Gemini API key configured. Please enter a valid key in .env file.');
   return key;
 }
 
