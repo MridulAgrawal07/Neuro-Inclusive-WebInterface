@@ -293,8 +293,9 @@ npm install
 
 # 3. Configure environment
 cp .env.example .env
-# Edit .env and add your Gemini API key:
-#   VITE_GEMINI_API_KEY=AIzaSyDdnxogumXV0smu4wgCuMjt8uYME-DVzxo
+# I have provided a test api key for testing
+#  Enter this key in .env file
+#  VITE_GEMINI_API_KEY=AIzaSyB9boowmY_DD1v9998rj1KLswudjP7jOKA
 
 # 4. Start development server
 npm run build
