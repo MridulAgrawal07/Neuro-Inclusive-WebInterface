@@ -367,5 +367,4 @@ A step-by-step walkthrough to verify the extension works end-to-end:
 ## License
 
 MIT
-#   N e u r o _ I n c l u s i v e _ W e b I n t e r f a c e  
- 
+#
