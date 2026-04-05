@@ -293,9 +293,7 @@ npm install
 
 # 3. Configure environment
 cp .env.example .env
-# I have provided a test api key for testing
-# Enter this key in .env file
-# If the test API key does not work , please enter your own api key
+# please enter your own api key in .env file
 # VITE_GEMINI_API_KEY="Enter your API Key"
 # 4. Start development server
 npm run build
