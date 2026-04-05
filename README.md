@@ -285,7 +285,7 @@ User clicks extension icon
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
+git clone https://github.com/MridulAgrawal07/Neuro-Inclusive-WebInterface.git
 cd neuro-inclusive-extension
 
 # 2. Install dependencies
@@ -294,10 +294,10 @@ npm install
 # 3. Configure environment
 cp .env.example .env
 # Edit .env and add your Gemini API key:
-#   VITE_GEMINI_API_KEY=AIzaSyD38rMHLSW71_YBuGZHlMxntX7Vsm-FIBw
+#   VITE_GEMINI_API_KEY=AIzaSyDdnxogumXV0smu4wgCuMjt8uYME-DVzxo
 
 # 4. Start development server
-npm run dev
+npm run build
 ```
 
 ### Load the Extension
