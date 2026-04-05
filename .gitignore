@@ -10,8 +10,8 @@ dist/
 .env.*.local
 
 # Temporary log files
-*.txt
-!README.txt
+
+
 
 # Editor directories and files
 .vscode/
