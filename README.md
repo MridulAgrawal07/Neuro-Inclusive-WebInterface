@@ -296,8 +296,7 @@ cp .env.example .env
 # I have provided a test api key for testing
 # Enter this key in .env file
 # If the test API key does not work , please enter your own api key
-# VITE_GEMINI_API_KEY=AIzaSyB9boowmY_DD1v9998rj1KLswudjP7jOKA
-
+# VITE_GEMINI_API_KEY="Enter your API Key"
 # 4. Start development server
 npm run build
 ```
