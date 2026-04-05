@@ -2,7 +2,7 @@
  * Gemini API client wrapper.
  *
  * Uses the @google/generative-ai SDK for typed requests.
- * Model: gemini-1.5-flash
+ * Model: gemini-2.5-flash
  *
  * Two call types:
  *   1. classifyElement  — ~200 token input, ~50 token output, JSON response
@@ -38,7 +38,7 @@ function getClient(apiKey: string): GoogleGenerativeAI {
 /** Resolve the API key to use, throwing if none is available. */
 export function resolveApiKey(settingsKey: string): string {
   const key = settingsKey || DEV_API_KEY || '';
-  if (!key) throw new Error('[NI] No Gemini API key configured. Please enter a valid key in .env file.');
+  if (!key) throw new Error('[NI] No Gemini API key configured. Please enter a valid Gemini 2.5 flash key in .env file.');
   return key;
 }
 
