@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/opendyslexic');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #1E1E2E;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  width: 360px;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  height: 100%;
+  background-color: #1E1E2E;
+}

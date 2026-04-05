@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NI Test Page — Simulated Noisy News Site</title>
+  <style>
+    body { font-family: system-ui; margin: 0; }
+    #cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: #fff; padding: 12px; z-index: 9999; }
+    #ad-sidebar { float: right; width: 300px; padding: 10px; background: #ffe; border: 1px solid #ccc; }
+    #sticky-header { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #ccc; padding: 8px; z-index: 100; }
+    #newsletter-popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #fff; border: 2px solid #333; padding: 24px; z-index: 5000; width: 360px; }
+    #overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 4999; }
+    main { max-width: 680px; margin: 0 auto; padding: 24px; }
+  </style>
+</head>
+<body>
+
+  <!-- Noise: sticky header -->
+  <div id="sticky-header" class="sticky-nav">
+    <a href="/">Home</a> | <a href="/news">News</a> | <a href="/subscribe">Subscribe</a>
+  </div>
+
+  <!-- Noise: newsletter popup + overlay -->
+  <div id="overlay" aria-hidden="true"></div>
+  <div id="newsletter-popup" role="dialog" aria-label="Subscribe to newsletter">
+    <h2>Get our daily newsletter!</h2>
+    <p>Don't miss any stories. Sign up now.</p>
+    <input type="email" placeholder="your@email.com" />
+    <button>Subscribe</button>
+    <button>No thanks</button>
+  </div>
+
+  <!-- Noise: ad sidebar -->
+  <aside id="ad-sidebar" class="ad-unit sponsored">
+    <p>Advertisement</p>
+    <img src="" alt="Ad: Buy now" width="300" height="250" />
+    <p>Sponsored content from our partners.</p>
+  </aside>
+
+  <!-- Main content -->
+  <main>
+    <article>
+      <h1>Scientists Discover New Method for Ocean Cleanup</h1>
+      <p>Published April 2, 2026 · 5 min read</p>
+
+      <p>
+        Researchers at the Institute of Marine Sciences have developed an innovative passive
+        collection system that uses ocean currents to aggregate microplastic particles with
+        significantly higher efficiency than previous approaches. The team published their
+        findings in the journal <em>Nature Environmental Solutions</em> this week.
+      </p>
+
+      <p>
+        The device, roughly the size of a shipping container, can process approximately
+        50,000 litres of seawater per hour while consuming no external power. It relies on
+        a series of ultra-fine hydrophilic mesh screens whose pore geometry was optimised
+        using computational fluid dynamics modelling over three years of simulation.
+      </p>
+
+      <p>
+        Lead researcher Dr Amara Osei said the breakthrough came from rethinking assumptions
+        about laminar flow at the micro scale. "We had to abandon the conventional wisdom that
+        mesh density and flow rate are fundamentally at odds," she explained in a press briefing.
+      </p>
+
+      <h2>Field Trials</h2>
+      <p>
+        Initial field trials in the North Pacific Gyre — home to the Great Pacific Garbage
+        Patch — will begin in June. The team hopes to deploy a fleet of 200 units within
+        18 months, pending funding from the UN Environment Programme.
+      </p>
+    </article>
+  </main>
+
+  <!-- Noise: cookie banner -->
+  <div id="cookie-banner" class="cookie-consent gdpr" role="alert">
+    <span>We use cookies to improve your experience.</span>
+    <button>Accept all</button>
+    <button>Manage preferences</button>
+  </div>
+
+</body>
+</html>

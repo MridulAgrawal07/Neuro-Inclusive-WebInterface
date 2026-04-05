@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(npm ls:*)",
+      "Bash(ls node_modules/@mozilla/readability/*.d.ts)",
+      "Bash(npx tsc:*)",
+      "Bash(ls /c/Users/pc/Desktop/Neuro_Inclusive_WebInterface/*.txt)"
+    ]
+  }
+}
